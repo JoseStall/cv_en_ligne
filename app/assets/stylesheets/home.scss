@@ -6,3 +6,17 @@ body {
 	background: image-url('fond.jpeg') no-repeat ;
 
 }
+
+section {
+	width: 300px ;
+	margin-left: 50px;
+	margin-top: 600px;
+	text-align: justify; 
+}
+
+footer {
+	position: absolute ;
+ 	width:100%;
+ 	text-align: center;
+ 	bottom: 0
+}
