@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 #gem'pundit'
+gem 'gmail'
 gem 'stripe'
 gem 'dotenv'
 gem 'devise'

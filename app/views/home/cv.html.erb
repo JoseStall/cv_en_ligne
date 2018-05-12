@@ -1,0 +1,14 @@
+  <body class="text-center">
+  </header>
+  <div class= row>
+  	<section class="col-lg-6">
+  		<div class="subject">
+  			<%= form_tag("/cv1", method: "get") do %>
+  			<%= label_tag(:mail, "Email:") %>
+  			<%= email_field_tag(:mail) %> <br>
+  			<%= submit_tag("Recevoir mon cv") %> 
+  			<% end %>
+  		</div>
+  	</section>
+  </div>
+</body>

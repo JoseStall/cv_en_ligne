@@ -100,6 +100,11 @@ GEM
     ffi (1.9.23)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    gmail (0.6.0)
+      gmail_xoauth (>= 0.3.0)
+      mail (>= 2.2.1)
+    gmail_xoauth (0.4.2)
+      oauth (>= 0.3.6)
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -136,6 +141,7 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
+    oauth (0.5.4)
     orm_adapter (0.5.0)
     pg (0.20.0)
     poltergeist (1.18.0)
@@ -275,6 +281,7 @@ DEPENDENCIES
   dotenv
   factory_bot_rails
   faker
+  gmail
   jbuilder
   jquery-rails
   letter_opener
